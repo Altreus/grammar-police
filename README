@@ -1,0 +1,19 @@
+grammar-police
+--------------
+
+The only particularly advanced open-source grammar checker out there seems to
+be the CMU Link Grammar Parser. I'm no expert so I don't understand its theory
+(because I didn't read it through) but it doesn't seem to do what I want. That
+is because I don't want a grammar parser, I want a grammar checker to
+complement my spell-checker. (Ironically, 'spell checker' is grammatically
+improper.)
+
+I want to create an open-source grammar checker that will offer suggestions. It
+will try to understand things like context and to figure out attachments of
+clauses and things.
+
+This is a fairly major undertaking and I hope it can generate some interest,
+and perhaps some debate. Currently it is just a README file, though.
+
+I'm going to use Perl because there are a few modules on there that might help
+kick off the project and get us on our way.
